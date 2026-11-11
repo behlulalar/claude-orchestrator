@@ -48,9 +48,7 @@ cheaper and verify; escalate one tier on failure (never start high "to be safe")
 | Docs, README, changelogs | **haiku** / **sonnet** | general-purpose | |
 | Research needing judgment (library choice, tradeoffs) | **opus** | general-purpose | Ask for a recommendation + 3-line rationale. |
 
-Fable (or any higher tier) is **not** a sub-agent tier. Use it only when the
-user names it for that task, or when a rare judgment-heavy piece fails twice
-on opus. Say so to the user before doing it.
+Only Haiku, Sonnet and Opus are used as sub-agents. Past opus, ask the user.
 
 ## 2. Hard rules
 
