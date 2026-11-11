@@ -7,6 +7,8 @@ mkdir -p "$HOME/.claude/skills"
 rm -rf "$DEST"
 cp -R "$SRC" "$DEST"
 echo "Installed skill -> $DEST"
+mkdir -p "$HOME/.cursor/skills" && rm -rf "$HOME/.cursor/skills/orchestrator" && cp -R "$SRC" "$HOME/.cursor/skills/orchestrator"
+echo "Installed skill -> $HOME/.cursor/skills/orchestrator"
 
 # Optional: make it always-on via the global CLAUDE.md
 MARK="<!-- orchestrator-skill -->"
