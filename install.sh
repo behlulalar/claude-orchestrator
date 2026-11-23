@@ -19,8 +19,7 @@ if ! grep -q "$MARK" "$CM"; then
 
 <!-- orchestrator-skill -->
 ## Orchestration
-For any task that involves writing/changing code, load the `orchestrator` skill first.
-The main loop plans, briefs and verifies; sub-agents (explicit `model:` always) do the implementation.
+Do small and medium tasks directly. Load the `orchestrator` skill only for large/parallel work or anything touching prod/servers.
 <!-- /orchestrator-skill -->
 EOF
   echo "Added always-on pointer to $CM"
